@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reseptahu"
+    android:background="#A6D785"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResepTahuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <!-- Back Button -->
+            <ImageView
+                android:id="@+id/btnBack2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back Icon"
+                android:layout_alignParentStart="true" />
+
+            <!-- Recipe Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Tahu"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Recipe Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tahu" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bahan-bahan:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 500gram tahu putih, potong segitiga\n 2. minyak goreng\n 3. bawang putih\n 4. ketumbar bubuk\n 5. garam\n 6. kecap manis\n 7. saus tiram\n 8. merica bubuk\n 9. air jeruk nipis."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- Steps Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Langkah-langkah:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Siapkan tahu putih yang sudah dipotong segitiga, bumbu marinade, dan bahan pelengkap (jika menggunakan).\n 2. Haluskan bawang putih dan campurkan dengan ketumbar, garam, kecap manis, saus tiram (jika digunakan), merica, dan air jeruk nipis atau air asam jawa (jika digunakan). Aduk rata dan rendam potongan tahu segitiga dalam bumbu marinade selama sekitar 15-30 menit agar bumbu meresap.\n 3. Panaskan minyak dalam wajan dengan api sedang. Pastikan minyak cukup banyak untuk menggoreng tahu secara merata.\n 4. Setelah minyak panas, masukkan tahu segitiga yang telah dimarinasi ke dalam minyak panas. Goreng tahu hingga berwarna kecokelatan dan crispy, sekitar 5-7 menit tergantung ukuran tahu. Setelah matang, angkat tahu dan tiriskan minyaknya menggunakan tisu dapur.\n 5. Sajikan tahu segitiga goreng dengan saus sambal atau saus tomat sebagai cocolan, dan taburi dengan daun ketumbar atau daun bawang jika suka."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

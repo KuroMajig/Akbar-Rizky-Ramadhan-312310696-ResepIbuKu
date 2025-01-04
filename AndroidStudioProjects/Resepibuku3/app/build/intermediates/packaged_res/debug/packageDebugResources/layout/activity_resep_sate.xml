@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resepsate"
+    android:background="#A6D785"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResepSateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <!-- Back Button -->
+            <ImageView
+                android:id="@+id/btnBack1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back Icon"
+                android:layout_alignParentStart="true" />
+
+            <!-- Recipe Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Sate"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Recipe Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sate" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bahan-bahan:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 500gram potongan daging ayam/sapi/kambing\n 2. bawang putih\n bawang merah\n 3. kecap manis\n 4. minyak sayur\n 5. ketumbar bubuk\n 6. merica bubuk/n 7. garam\n 8. jeruk nipis\n gula merah"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- Steps Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Langkah-langkah:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Siapkan semua bahan yang dibutuhkan seperti daging, tusuk sate, dan bahan untuk marinade serta bumbu kacang.\n 2.  Potong daging ayam, sapi, atau kambing menjadi dadu kecil-kecil. Dalam wadah, campurkan bawang putih, bawang merah, kecap manis, minyak sayur, ketumbar, merica, garam, air jeruk nipis, dan gula merah (jika digunakan). Masukkan potongan daging ke dalam campuran bumbu ini. Aduk hingga rata dan pastikan daging terbalut rata dengan bumbu. Diamkan selama 30 menit hingga 1 jam agar bumbu meresap.\n 3.  Ambil tusuk sate dan tusukkan potongan daging yang telah dimarinasi ke tusuk sate. Usahakan untuk tidak terlalu rapat agar saat dipanggang, daging bisa matang merata.\n 4. Sangrai kacang tanah hingga matang dan berwarna kecokelatan. Kemudian haluskan kacang dengan blender atau ulekan. Tumis bawang putih dan cabai merah hingga harum, kemudian haluskan juga.Campurkan kacang yang telah dihaluskan dengan bawang putih, cabai, gula merah, garam, dan kecap manis. Tambahkan sedikit air hingga mencapai kekentalan yang diinginkan. Aduk rata.\n 5 .Siapkan panggangan atau bara api. Letakkan tusuk sate di atas panggangan dan panggang sate hingga matang dan berwarna kecokelatan, sekitar 5-7 menit per sisi (tergantung ukuran potongan daging). Sambil memanggang, oleskan sedikit sisa marinade pada sate agar lebih berasa dan tidak kering.\n 6. Setelah matang, angkat sate dan sajikan dengan bumbu kacang yang sudah disiapkan. Sate juga bisa disajikan dengan pelengkap seperti ketupat, lontong, sambal, atau acar. "
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#A6D785"
+    android:id="@+id/reseprendang"
+    tools:context=".ResepRendangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <!-- Back Button -->
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back Icon"
+                android:layout_alignParentStart="true" />
+
+            <!-- Recipe Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Rendang"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Recipe Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rendang" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bahan-bahan:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 10 BUah tahu kuning\n 2. 150gram tepung terigu\n 3. 2 butir telur\n 4. siung bawang putih\n 5. 1/2 sendok teh garam\n 6. 1/2 sendok teh merica bubuk\n 7. 200ml air\n 8. minyak goreng secukupnya"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- Steps Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Langkah-langkah:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Potong tahu berbentuk segitiga menjadi dua bagian. Lubangi bagian tengah tahu dengan hati-hati untuk membuat ruang bagi isian, tetapi jangan sampai tahu terbelah.\n 2.Panaskan sedikit minyak di wajan, tumis bawang putih hingga harum. Masukkan wortel, kol, tauge, dan daun bawang, lalu aduk rata. Tambahkan saus tiram, garam, dan merica bubuk. Aduk hingga matang, lalu angkat dan biarkan dingin. \n 3.Masukkan isian ke dalam ruang yang sudah dibuat pada tahu. Isi hingga penuh, lalu rapatkan kembali bagian tahu. \n 4.Campurkan tepung terigu, bawang putih halus, garam, dan merica bubuk dalam sebuah wadah. Tambahkan air sedikit demi sedikit sambil diaduk hingga adonan memiliki konsistensi yang tidak terlalu cair atau terlalu kental. Kocok telur secara terpisah dalam mangkuk kecil.\n 5.Panaskan minyak goreng dalam jumlah yang cukup untuk menggoreng tahu. Celupkan tahu ke dalam adonan tepung, kemudian celupkan ke dalam kocokan telur. Goreng tahu dalam minyak panas hingga berwarna keemasan dan matang. Angkat dan tiriskan.\n 6.Sajikan tahu segitiga goreng isi selagi hangat bersama cabai rawit, saus sambal, atau mayones. Nikmati tahu segitiga sebagai camilan atau lauk pendamping. "
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>
